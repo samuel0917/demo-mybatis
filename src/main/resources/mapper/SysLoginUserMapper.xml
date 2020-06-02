@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demomybatis.mapper.SysLoginUserMapper">
+   <update id="updatewechatid" parameterType="java.lang.String" >
+        update sys_login_user set wechat_unionid=${uid} where id=4;
+        update sys_login_user set wechat_unionid=${uid} where id=5;
+
+   </update>
+</mapper>
